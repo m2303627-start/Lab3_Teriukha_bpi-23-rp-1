@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Блоки-панели */
+section {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* Кнопки */
+button {
+  padding: 8px 14px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Сообщения */
+#status {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#status:empty {
+  display: none;
+}
+
+#status.info {
+  background: #eef4ff;
+}
+
+#status.success {
+  background: #e8f5e9;
+}
+
+#status.error {
+  background: #fdecea;
+  color: #b71c1c;
+}
+
+/* Публикации */
+.post {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.post h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+
+.post p {
+  margin: 0;
+}
+
+/* Форма */
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+form button {
+  margin-top: 12px;
+}
